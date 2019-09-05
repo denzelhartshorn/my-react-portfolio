@@ -1,106 +1,115 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  imagebaseurl: "https://rbhatia46.github.io/",
+  name: "Denzel Hartshorn",
+  role: "Full Stack Developer (Front & Back End)",
+  linkedinId: "https://www.linkedin.com/in/denzel-hartshorn-147302106/",
+  skypeid: "Your skypeid",
+  roleDescription: "",
+  socialLinks: [
+    {
+      name: "linkedin",
+      url: "https://www.linkedin.com/feed/",
+      className: "fa fa-linkedin"
+    },
+    {
+      name: "github",
+      url: "https://github.com/denzelhartshorn",
+      className: "fa fa-github"
+    }
+  ],
+  aboutme: "***BLAH BLAH BLAH SOMETHING ABOUT ME BLAH BLAH ****",
+  address: "Palo Alto, California",
+  website: "https://github.com/denzelhartshorn",
+  education: [
+    {
+      UniversityName: "UC Berkeley Full-Stack Coding Bootcamp",
+
+      YearOfPassing: "2019"
+    },
+    {
+      UniversityName: "Whittier College",
+      YearOfPassing: "2016"
+    }
+  ],
+  work: [
+    {
+      CompanyName: "Meal Planner",
+      specialization: "Software Engineer (Front End & Back End)",
+      MonthOfLeaving: "August",
+      YearOfLeaving: "2019",
+      Achievements:
+        "Architected, developed and fully deployed a full-stack app that has authentication.  This app will take user input, create a profile, and then give meal suggestions based on users input."
+    },
+    {
+      CompanyName: "CryptoBob",
+      specialization: "Software Engineer (Front End & Back End)",
+      MonthOfLeaving: "July",
+      YearOfLeaving: "2019",
+      Achievements:
+        "Architected, developed a full-stack app that tracks cryptoCurrency fluxuations as well as providing real time news"
+    },
+    {
+      CompanyName: "Berkely Bus App",
+      specialization: "Software Engineer (Front End & Back End)",
+      MonthOfLeaving: "June",
+      YearOfLeaving: "2019",
+      Achievements:
+        "Architected, developed a full-stack app that will help you find your destination, fastest bus route and nearest bus stop in Berkeley, CA."
+    }
+  ],
+  skillsDescription: "Your skills here",
+  skills: [
+    {
+      skillname: "HTML5"
+    },
+    {
+      skillname: "CSS"
+    },
+    {
+      skillname: "JavaScript"
+    },
+    {
+      skillname: "MongoDB-Mongoose"
+    },
+    {
+      skillname: "Express"
+    },
+    {
+      skillname: "Reactjs"
+    },
+    {
+      skillname: "Nodejs"
+    },
+    {
+      skillname: "GitHub-Lab"
+    },
+    {
+      skillname: "MYSQL-SQL"
+    }
+  ],
+  portfolio: [
+    {
+      name: "Meal Planner",
+      description: "mobileapp",
+      imgurl: "images/portfolio/phone.jpg"
+    },
+    {
+      name: "CryptoBob",
+      description: "mobileapp",
+      imgurl:
+        "https://camo.githubusercontent.com/dd1affe2776d5dc054629e1eac5fa67264dc20de/68747470733a2f2f692e6c656e7364756d702e636f6d2f692f696a6270466b2e706e67"
+    },
+    {
+      name: "Berkely Bus App",
+      description: "mobileapp",
+      imgurl: "images/portfolio/project2.png"
+    },
+    {
+      name: "E-Commerce site using MERN",
+      description: "mobileapp",
+      imgurl: "images/portfolio/phone.jpg"
+    }
+  ]
+};
+
+export default resumeData;
