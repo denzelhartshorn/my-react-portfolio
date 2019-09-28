@@ -1,9 +1,9 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+  imagebaseurl: "",
   name: "Denzel Hartshorn",
   role: "Full Stack Developer (Front & Back End)",
   linkedinId: "https://www.linkedin.com/in/denzel-hartshorn-147302106/",
-  skypeid: "Your skypeid",
+  // skypeid: "",
   roleDescription: "",
   socialLinks: [
     {
@@ -17,7 +17,8 @@ let resumeData = {
       className: "fa fa-github"
     }
   ],
-  aboutme: "***BLAH BLAH BLAH SOMETHING ABOUT ME BLAH BLAH ****",
+  aboutme:
+    "A self-motivated, creative and dedicated web developer with strong teamwork, collaboration, and communication skills.  Quick to learn new tools and systems with the ability to thrive in independent or collaborative work environments.  Strong qualifications in problem-solving, product management, sales, marketing, communication and leadership.  Currently building projects with the MERN stack.",
   address: "Palo Alto, California",
   website: "https://github.com/denzelhartshorn",
   education: [
@@ -91,7 +92,8 @@ let resumeData = {
     {
       name: "Meal Planner",
       description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg"
+      imgurl:
+        "https://camo.githubusercontent.com/9bbc9c35028ec68d8418b08ead09d6943a6bd5dc/68747470733a2f2f692e6c656e7364756d702e636f6d2f692f69696f4b426d2e706e67"
     },
     {
       name: "CryptoBob",
@@ -102,7 +104,7 @@ let resumeData = {
     {
       name: "Berkely Bus App",
       description: "mobileapp",
-      imgurl: "images/portfolio/project2.png"
+      imgurl: "images/bba-screenshot.png"
     },
     {
       name: "E-Commerce site using MERN",
